@@ -8,15 +8,22 @@ reset
     box-sizing: border-box;
  }
 
- h1{
-   color: lightcoral;
-   font-size: 3rem;
+ img{
+   max-width: 100%;
+   border-radius: 50%; 
+}
+
+ #app{
+   width: 500px;
+   text-align: center;
+ }
+
+ #app > *{
+  margin: 50px 0;
+ }
+
+ body{
    display: flex;
    justify-content: center;
    align-items: center;
- }
-
- .my-container{
-   max-width: 1000px;
-   margin: 0 auto ;
  }

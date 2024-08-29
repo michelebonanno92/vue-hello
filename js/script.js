@@ -1,5 +1,13 @@
-/* 
-caratteri tilde (~) e backtick (``)
- */
 
-console.log("stampa in console")
+
+const { createApp } = Vue ;
+
+    createApp({
+        data() {
+            return {
+                message: "Hello Vue!",
+                img_source: 'imgTigre.jpg'
+            };
+        }
+    }).mount('#app');
+
