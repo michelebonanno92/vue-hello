@@ -1,12 +1,13 @@
 
 
-const { createApp } = Vue ;
+const { createApp } = Vue ; 
+// Destructuring
 
     createApp({
         data() {
             return {
                 message: "Hello Vue!",
-                img_source: 'imgTigre.jpg'
+                imgSrc: 'https://picsum.photos/200/300'
             };
         }
     }).mount('#app');
